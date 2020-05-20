@@ -1,0 +1,21 @@
+.Header{
+  text-align: center;
+  color: salmon;
+}
+
+.Header p{
+  color: #000;
+  text-align: justify;
+  padding: 30px 30px;
+  margin: 0 auto;
+}
+
+.btn{
+  padding: 10px 30px;
+  color: #fff;
+  font-size: 15px;
+  background-color: #e76e;
+  border: 1px solid red;
+  cursor: pointer;
+  text-align: center;
+}
