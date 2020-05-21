@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import Person from './Person/Person';
 import Form from './Form/Form';
+import Calculator from './Calculator/Calculator';
 
 class App extends Component {
   state={
