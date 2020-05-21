@@ -44,24 +44,26 @@ class App extends Component {
       showPerson : !doesShow
     });
   }
-
 // Handler are above this code
 
 
   render() {
+
+    let persons = null;
+    if(this.state.showPerson){
+      persons = <Person
+          name = {this.state.person[this.state.number].name}
+          age = {this.state.person[this.state.number].age}
+          click = {()=>this.switchNameHandler()}
+          changed = {this.nameChangeHandler}
+      />
+    }
+
     return (
       <div className="App">
         <h1>Hello Mr. Prince </h1>
         <button className="btn" onClick={()=>this.togglePersonHandler()}> Show Name </button>
-        {
-          this.state.showPerson === true ?
-          <Person
-              name = {this.state.person[this.state.number].name}
-              age = {this.state.person[this.state.number].age}
-              click = {()=>this.switchNameHandler()}
-              changed = {this.nameChangeHandler}
-          /> : null
-        }
+        {persons}
 
       </div>
     );
@@ -69,3 +71,25 @@ class App extends Component {
 }
 
 export default App;
+
+
+
+// learn for practice
+
+/*
+return (
+  <div className="App">
+    <h1>Hello Mr. Prince </h1>
+    <button className="btn" onClick={()=>this.togglePersonHandler()}> Show Name </button>
+    {
+      this.state.showPerson === true ?
+      <Person
+          name = {this.state.person[this.state.number].name}
+          age = {this.state.person[this.state.number].age}
+          click = {()=>this.switchNameHandler()}
+          changed = {this.nameChangeHandler}
+      /> : null
+    }
+
+  </div>
+*/
