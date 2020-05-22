@@ -3,10 +3,12 @@
 }
 
 .person {
-  display: inline-block;
+  display: block;
   padding: 20px 100px;
-  border: 2px solid salmon;
+  border: 2px solid green;
   z-index: 100;
   cursor: pointer;
   text-align: center;
+  margin: 20px auto;
+  width: 50%;
 }
