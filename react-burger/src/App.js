@@ -56,6 +56,14 @@ class App extends Component {
 
   render() {
 
+    const mystyle = {
+      color: "white",
+      backgroundColor: "DodgerBlue",
+      padding: "10px",
+      fontFamily: "Arial"
+    };
+
+
     let persons = null;
     if(this.state.showPerson){
       persons = (
@@ -77,7 +85,7 @@ class App extends Component {
     return (
       <div className={classes.App}>
         <h1>Hello Mr. Prince </h1>
-        <button className={classes.btn} onClick={()=>this.togglePersonHandler()}> Show Name </button>
+        <button className={classes.btn} style={mystyle} onClick={()=>this.togglePersonHandler()}> Show Name </button>
         {persons}
 
       </div>
