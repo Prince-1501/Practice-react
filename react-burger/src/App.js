@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './App.css';
+import classes from './App.css';
 import Person from './Person/Person';
 
 
@@ -40,7 +40,7 @@ class App extends Component {
     });
 
     const person = {
-      ...this.state.person[personIndex];
+      ...this.state.person[personIndex]
     }
 
     person.name= event.target.value;
@@ -75,9 +75,9 @@ class App extends Component {
 
 
     return (
-      <div className="App">
+      <div className={classes.App}>
         <h1>Hello Mr. Prince </h1>
-        <button className="btn" onClick={()=>this.togglePersonHandler()}> Show Name </button>
+        <button className={classes.btn} onClick={()=>this.togglePersonHandler()}> Show Name </button>
         {persons}
 
       </div>

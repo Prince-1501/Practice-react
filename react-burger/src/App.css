@@ -8,4 +8,9 @@
   color: black;
   background-color: lightgreen;
   margin: 10px auto;
+  cursor: pointer;
+}
+
+.btn :hover{
+  background-color: salmon;
 }
