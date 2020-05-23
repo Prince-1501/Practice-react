@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import classes from './App.module.css';
 import Logo from './bg-image.svg';
+import Grid from './assets/css/Grid.css';
 
 
 class App extends Component {
@@ -30,9 +31,8 @@ class App extends Component {
     return (
       <div className={classes.App}>
           <h1 className={classes.h1}>Your Time is here </h1>
-          <img  src={Logo} width="500" height="600"/>
-
-          <button onClick={this.showDayHandler}>Detail View </button>
+          <img  src={Logo} width="500" height="600" className={`${Grid.col} ${Grid.span-1-of-2}`}/>
+          <button className={`${classes.btn} ${classes.some}`} onClick={this.showDayHandler}> Choose me! </button>
           <div className={classes.time}>
             <div>{time}</div>
             <div>{showDetail}</div>
