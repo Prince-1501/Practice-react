@@ -1,0 +1,25 @@
+.App {
+  background-image: url(./bg-image.svg);
+  background-size: cover;
+  height: 100vh;
+  margin-top: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-rendering: optimizeLegibility;
+}
+
+.some{
+  text-decoration: line-through;
+  text-align: center;
+}
+
+.h1{
+  text-align: center;
+  color: salmon;
+  display: block;
+  border : 1px solid green;
+  padding: 20px 60px;
+  width: 50%;
+  margin: 0 auto;
+  background-color: #000;
+}
