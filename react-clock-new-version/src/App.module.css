@@ -7,95 +7,43 @@
 
 .h1{
   text-align: center;
-  /* color: #535460; */
-  color: black;
+  color: #fff;
   width: 100vw;
   padding: 20px;
-  background-color: #FBE7ED;
+  background-color: #ED677B;
   margin: 0 auto;
-  font-size: 32px;
-  font-weight: 900;
+  font-size: 55px;
   text-transform: uppercase;
 }
 
 .time{
-  display: inline-block;
+  float: right;
+  display: block;
   text-align: center;
-  border: 20px solid red;
+  border: 22px solid #ED677B;
   height: 170px;
   width: 250px;
   border-radius: 50%;
   padding-top: 70px;
+  margin: 50px 85px 0 15px;
+  background-color: #DDE1EC;
+  box-shadow: 5px 10px #888888;
 }
 
 .btn{
-  padding: 20px 30px;
-  border: 2px solid #FBE7ED;
+  display: block;
+  float: right;
+  padding: 16px 30px;
+  border: 2px solid black;
+  border-radius: 10px;
   color: #fff;
-}
-
-.some{
+  font-size: 18px;
   background-color: black;
+  margin : 20px 60px 20px 10px;
 }
 
-/* Toggel Switch button */
-
-/* .switch {
-  position: relative;
-  display: inline-block;
-  width: 60px;
-  height: 34px;
+.showTime{
+  font-size: 30px;
+  color: black;
+  font-weight: bold;
 }
-
-.switch input {
-  opacity: 0;
-  width: 0;
-  height: 0;
-} */
-
-/* Rounded sliders */
-/* .slider.round {
-  border-radius: 34px;
-}
-
-.slider.round:before {
-  border-radius: 50%;
-}
-
-.slider {
-  position: absolute;
-  cursor: pointer;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: #ccc;
-  -webkit-transition: .4s;
-  transition: .4s;
-}
-
-.slider:before {
-  position: absolute;
-  content: "";
-  height: 26px;
-  width: 26px;
-  left: 4px;
-  bottom: 4px;
-  background-color: white;
-  -webkit-transition: .4s;
-  transition: .4s;
-}
-
-input:checked + .slider {
-  background-color: #2196F3;
-}
-
-input:focus + .slider {
-  box-shadow: 0 0 1px #2196F3;
-}
-
-input:checked + .slider:before {
-  -webkit-transform: translateX(26px);
-  -ms-transform: translateX(26px);
-  transform: translateX(26px);
-} */
