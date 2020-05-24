@@ -33,11 +33,11 @@
 .btn{
   display: block;
   float: right;
-  padding: 16px 30px;
+  padding: 8px 28px;
   border: 2px solid black;
   border-radius: 10px;
   color: #fff;
-  font-size: 18px;
+  font-size: 22px;
   background-color: black;
   margin : 20px 60px 20px 10px;
 }
