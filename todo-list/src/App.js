@@ -4,10 +4,9 @@ export default class App extends Component{
 
   state={
     'todos':[
-      {name:'walk the dog'}
+      {name:'walk the dog in the street'}
     ]
   }
-
 
   render(){
     return(
